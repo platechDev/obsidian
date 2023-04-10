@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"type":"file","file":"platech/SUSUERTE/SUSUERTE.md","id":"e53b051c81be7678","x":200,"y":-615,"width":400,"height":400},
+		{"type":"file","file":"platech/Procesos internos/Organizacion.md","id":"7825a3a2325bc59b","x":-160,"y":49,"width":400,"height":400},
+		{"type":"file","file":"platech/Arme/ARME.md","id":"eb4aa27c9180881c","x":-520,"y":-615,"width":400,"height":370}
+	],
+	"edges":[]
+}

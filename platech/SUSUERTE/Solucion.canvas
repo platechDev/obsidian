@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"type":"group","id":"e4d21bb112770e5d","x":-660,"y":-120,"width":1335,"height":500,"label":"Backend"},
+		{"type":"group","id":"3f32ae653a416fa4","x":-120,"y":-360,"width":1190,"height":160,"label":"FalconBot"},
+		{"type":"text","text":"Conectar la impresora a raspberry","id":"2fc7f3b6db740c22","x":-100,"y":-340,"width":140,"height":120},
+		{"type":"text","text":"crear un script en nodered para apuntar a la carpeta de la impresora y verifique cada 500 ms","id":"509c45da5164528f","x":100,"y":-340,"width":250,"height":120},
+		{"type":"text","text":"conectar el nodered con el microservicio de Falcon","id":"563e1da5cb531325","x":425,"y":-340,"width":250,"height":120},
+		{"type":"text","text":"conectar respuesta de falcon a servidor websocket","id":"f8fe4349dbec7291","x":800,"y":-340,"width":250,"height":120},
+		{"type":"text","text":"conectar al microservio de fronted","id":"e4bc104e277ee96c","x":1180,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"lanzar microservicio","id":"1f02616f7d9b466f","x":400,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"crear esquema de relaciones para base de datos","id":"d4ddab9d9c00b7b5","x":-640,"y":-100,"width":180,"height":100},
+		{"type":"text","text":"crear docker del microservicio junto con las operaciones basicas","id":"58e2e838e3add379","x":10,"y":-100,"width":250,"height":100},
+		{"type":"text","text":"realiazar mejoras a la base","id":"c8c4920e0d9c0273","x":-390,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"crear docker de base de datos y conexion a la base desde docker","id":"ff6d71b04ff9a315","x":10,"y":40,"width":250,"height":100,"color":"4"},
+		{"type":"text","text":"crear docker de servidor\nwebsocket o integrarlo al servidor principal o es mejor integrarlo por separados","id":"963faf94ab3bab66","x":10,"y":200,"width":250,"height":140}
+	],
+	"edges":[
+		{"id":"ee9e31fc60b32ab5","fromNode":"2fc7f3b6db740c22","fromSide":"right","toNode":"509c45da5164528f","toSide":"left"},
+		{"id":"6fe39ced46c3466d","fromNode":"509c45da5164528f","fromSide":"right","toNode":"563e1da5cb531325","toSide":"left"},
+		{"id":"c5dd7f920639d952","fromNode":"d4ddab9d9c00b7b5","fromSide":"right","toNode":"c8c4920e0d9c0273","toSide":"left"},
+		{"id":"eb0f4cc9822af20c","fromNode":"c8c4920e0d9c0273","fromSide":"right","toNode":"58e2e838e3add379","toSide":"left"},
+		{"id":"15b36f2dcd87487a","fromNode":"58e2e838e3add379","fromSide":"right","toNode":"1f02616f7d9b466f","toSide":"left"},
+		{"id":"c6feb72321462bd5","fromNode":"c8c4920e0d9c0273","fromSide":"right","toNode":"ff6d71b04ff9a315","toSide":"left"},
+		{"id":"56d123f0f0d6ba5c","fromNode":"ff6d71b04ff9a315","fromSide":"right","toNode":"1f02616f7d9b466f","toSide":"left"},
+		{"id":"c0ed60f4bc136732","fromNode":"c8c4920e0d9c0273","fromSide":"right","toNode":"963faf94ab3bab66","toSide":"left"},
+		{"id":"ea969d1538c45760","fromNode":"963faf94ab3bab66","fromSide":"right","toNode":"1f02616f7d9b466f","toSide":"left"},
+		{"id":"383e31d23eabe67c","fromNode":"563e1da5cb531325","fromSide":"right","toNode":"f8fe4349dbec7291","toSide":"left"},
+		{"id":"c5437f958d8bca32","fromNode":"f8fe4349dbec7291","fromSide":"right","toNode":"e4bc104e277ee96c","toSide":"left"},
+		{"id":"3ec33c2d5cfc3bd1","fromNode":"1f02616f7d9b466f","fromSide":"right","toNode":"e4bc104e277ee96c","toSide":"left"},
+		{"id":"c928df16fa1632ca","fromNode":"1f02616f7d9b466f","fromSide":"right","toNode":"f8fe4349dbec7291","toSide":"left"}
+	]
+}
