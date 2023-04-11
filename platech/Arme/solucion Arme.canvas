@@ -1,1 +1,41 @@
-{}
+{
+	"nodes":[
+		{"id":"cb7641744cda08ff","x":-500,"y":400,"width":660,"height":780,"type":"group","label":"Requerimientos Tecnicos"},
+		{"id":"deb92d63969ae001","x":54,"y":-345,"width":226,"height":100,"type":"text","text":"FalconMotorV2"},
+		{"id":"88fad0a5b01ae2f5","x":42,"y":-490,"width":250,"height":60,"color":"6","type":"text","text":"WEB SERVICE"},
+		{"id":"b78a3a71717ce7a9","x":-531,"y":-900,"width":250,"height":100,"type":"text","text":"FalconMotorV2 : procesar Excel"},
+		{"id":"899e8d7ef57f378b","x":280,"y":-190,"width":250,"height":110,"type":"text","text":"se agrega a un software de piso"},
+		{"id":"fd9f2bd24ba024ae","x":-531,"y":-460,"width":460,"height":320,"type":"text","text":"se realiza un pedido o contrato de materia prima, exiten diferentes provedores como formatos, junto con los items y tiene un campos comunes ID, peso neto, peso bruto"},
+		{"id":"b676c1e363614f4a","x":-496,"y":80,"width":391,"height":220,"type":"text","text":"Proceso de programacion de envios, excel, los mismo campos del contrato pero con prioridad, listas de empaque"},
+		{"id":"7df5ddb72c8ed06b","x":-71,"y":90,"width":280,"height":200,"type":"text","text":"se envian lista de empaque a la empresa de distribucion "},
+		{"id":"2e93aec547ba9f7e","x":-230,"y":-875,"width":250,"height":50,"type":"text","text":"SQL"},
+		{"id":"2053f9fd8e87d9c5","x":69,"y":-875,"width":223,"height":55,"type":"text","text":"NoSQL"},
+		{"id":"59ad27bb6be427e8","x":292,"y":135,"width":300,"height":110,"type":"text","text":"Impresion de las ordenes despacho"},
+		{"id":"5ed41570a7cdad80","x":680,"y":140,"width":280,"height":100,"type":"text","text":"verificacion de las cosas que llegaron"},
+		{"id":"cf6712f9b7eb0294","x":1020,"y":145,"width":260,"height":90,"type":"text","text":"Verificar por medio de imagen de chat"},
+		{"id":"8d4c5fd9a9092ef1","x":1340,"y":142,"width":300,"height":97,"type":"text","text":"verficar los proceso en diferentes puntos"},
+		{"id":"360074db60bb7f4c","x":-478,"y":500,"width":516,"height":60,"color":"4","type":"text","text":"Desarrollo Web de escritorio Rol Logistico"},
+		{"id":"c87384eae0e0c73b","x":-478,"y":580,"width":496,"height":60,"color":"4","type":"text","text":"Desarrollo Web para los Rol conductores"},
+		{"id":"6282e3ea9321b5ef","x":-478,"y":420,"width":96,"height":50,"color":"4","type":"text","text":"S3"},
+		{"id":"dd465272503598ff","x":-478,"y":660,"width":496,"height":60,"color":"4","type":"text","text":"Desarrollo Web para los Rol Check In"},
+		{"id":"db724278d47ec567","x":-480,"y":820,"width":296,"height":60,"color":"1","type":"text","text":"Soporte de BIG DATA"},
+		{"id":"8510603a5f2861f8","x":-480,"y":900,"width":356,"height":60,"color":"4","type":"text","text":"soporte de ciencia de datos"},
+		{"id":"396e092472ab4338","x":-480,"y":980,"width":250,"height":60,"color":"3","type":"text","text":"SQL VS NoSQL"},
+		{"id":"95fcc9e81f1bfdd0","x":-480,"y":1060,"width":250,"height":60,"color":"1","type":"text","text":"IOT AWS"},
+		{"id":"0a783eb0e8cdbec2","x":-140,"y":980,"width":276,"height":160,"type":"text","text":"VERDE : Dominado\nAmarillo : Discucion\nRojo: Investigacion"},
+		{"id":"2d8d1bc587057402","x":-478,"y":740,"width":250,"height":60,"color":"4","type":"text","text":"WEBSOCKET"},
+		{"id":"3184670a0170ba3c","x":280,"y":450,"width":250,"height":100,"type":"text","text":"que paso si no hay internet"},
+		{"id":"75f17f340ddd7de3","x":620,"y":450,"width":340,"height":90,"type":"text","text":"Cual es el otro Rol que nos falta"}
+	],
+	"edges":[
+		{"id":"48c5f755a8625417","fromNode":"deb92d63969ae001","fromSide":"top","toNode":"88fad0a5b01ae2f5","toSide":"bottom"},
+		{"id":"aecdbda769fad367","fromNode":"fd9f2bd24ba024ae","fromSide":"right","toNode":"deb92d63969ae001","toSide":"left"},
+		{"id":"1ecd27bfe8570456","fromNode":"fd9f2bd24ba024ae","fromSide":"right","toNode":"899e8d7ef57f378b","toSide":"left"},
+		{"id":"0ddc7d4be7e1d7d9","fromNode":"88fad0a5b01ae2f5","fromSide":"right","toNode":"899e8d7ef57f378b","toSide":"top"},
+		{"id":"eea4d05794bb9a8c","fromNode":"b676c1e363614f4a","fromSide":"right","toNode":"7df5ddb72c8ed06b","toSide":"left"},
+		{"id":"d14e3cf2046decc0","fromNode":"7df5ddb72c8ed06b","fromSide":"right","toNode":"59ad27bb6be427e8","toSide":"left"},
+		{"id":"d78afc510cb76202","fromNode":"59ad27bb6be427e8","fromSide":"right","toNode":"5ed41570a7cdad80","toSide":"left"},
+		{"id":"140c4b72855fea61","fromNode":"5ed41570a7cdad80","fromSide":"right","toNode":"cf6712f9b7eb0294","toSide":"left"},
+		{"id":"cf4118ab20a79f5f","fromNode":"cf6712f9b7eb0294","fromSide":"right","toNode":"8d4c5fd9a9092ef1","toSide":"left"}
+	]
+}
