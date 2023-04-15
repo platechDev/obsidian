@@ -1,7 +1,6 @@
-1. creacion de cuenta de chat gpt platech oficial [[Diego]]  [[esteban]] 11 - 04 - 2023
+
 2. revizar los procedimientos de platech y llenarlos [[Diego]]      [[rafael]] [[esteban]]
 	2.1 Telefonos de los contactos [[esteban]] [pasable]
-	2.2 Retroalimentacion de los estatus de la unidad de empredimuento de universidad de manizales [[rafael]] [urgente]
 	2.3 Educacion Profesional [[Diego]] [[rafael]] [[esteban]] [pasable]
 	2.4 Costos personales y agregarlos o deducirlos del pago mensual [[esteban]] [urgente]
 	2.5 Registro de marca [ejecutable]
@@ -10,6 +9,21 @@
 		2.6.2 Induccion 
 		2.6.3 Pago
 		2.6.4 Contable [urgente]
-	2.7 definir una hoja de excel para todos los consumos [[Diego]] [[esteban]]
-	
-3. Creemos el prospecto Front, Back, Deploy [[rafael]] [[Diego]]
+			
+1. Creemos el prospecto Front, Back, Deploy [[rafael]] [[Diego]]
+
+
+- [ ] Reunion con el contandor [[esteban]]
+	   -  que impuestos se pagan como empresa de tecnologia
+	   -  en el estado que nos encontramos cuales deben ser las consideraciones
+
+- [ ] Reunion con parte legal 
+	-  como ,nos encontramos la parte organizacional
+	-  registro de marca
+	-  Como debemos cubrirnos legalmente
+	-  junto con la razon ver que identificador le queda a platech con el numero de rut
+
+- [ ] pantilla de costo para los proyectos y anexarla a procedimentos [[esteban]]
+- [ ] implemetacion de slack interno
+- [ ] revizar los estatus con rafa
+

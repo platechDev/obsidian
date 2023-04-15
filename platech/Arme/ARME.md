@@ -7,4 +7,10 @@ tag: platech
 
 ---
 
-1. Pedir Acta de confidencialidad [[esteban]]
+17 - 04 - 2023
+
+- [ ] lectura de la acta de confidencialidad junto cin su firma [[Diego]] [[esteban]] [[rafael]]  
+- [ ] canvas del problema [[Diego]] [[esteban]] [[rafael]] 
+- [ ] canvas de la solucion [[Diego]] [[esteban]] [[rafael]]
+- [ ] Cronograma [[Diego]] [[esteban]] [[rafael]]
+

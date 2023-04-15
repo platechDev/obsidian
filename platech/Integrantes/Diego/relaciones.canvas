@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"text","text":"vision api","id":"8c7f97ef058f6719","x":-140,"y":-500,"width":250,"height":60},
+		{"type":"text","text":"falcon motor","id":"f0f6f63d79e243af","x":-420,"y":-400,"width":250,"height":60},
+		{"type":"text","text":"impresora","id":"80aa48e91f42da03","x":-700,"y":-220,"width":140,"height":60},
+		{"type":"text","text":"servidor Backend","id":"c07dc9ad459cad87","x":-240,"y":-60,"width":250,"height":60},
+		{"type":"text","text":"usuario  que elegio esa impresora frontend","id":"7b15fca48ca7ea0a","x":260,"y":-70,"width":250,"height":70},
+		{"id":"b9eae9c43bab3069","x":600,"y":-220,"width":250,"height":60,"type":"text","text":"webservice"},
+		{"id":"8acc13223e858c34","x":760,"y":40,"width":250,"height":60,"type":"text","text":"image webserive"},
+		{"id":"57c345f3f1f52c12","x":-670,"y":80,"width":250,"height":60,"color":"4","type":"text","text":"http api"},
+		{"id":"04ac47ba5b19200e","x":-670,"y":180,"width":250,"height":60,"color":"3","type":"text","text":"WEBSOCKET"},
+		{"id":"4339532ecb22aac1","x":-670,"y":280,"width":250,"height":60,"color":"5","type":"text","text":"VISION API REQUEST"}
+	],
+	"edges":[
+		{"id":"6475663d044d009c","fromNode":"c07dc9ad459cad87","fromSide":"right","toNode":"7b15fca48ca7ea0a","toSide":"left","color":"3","label":"id_tra, img_buffer"},
+		{"id":"40b9ce1e2664fb3b","fromNode":"f0f6f63d79e243af","fromSide":"top","toNode":"8c7f97ef058f6719","toSide":"left","color":"5","label":"buffer image"},
+		{"id":"70c2af0d3a4f4d3b","fromNode":"8c7f97ef058f6719","fromSide":"bottom","toNode":"f0f6f63d79e243af","toSide":"right","color":"5","label":"plain text extract"},
+		{"id":"0823fcc86fc6a634","fromNode":"80aa48e91f42da03","fromSide":"top","toNode":"f0f6f63d79e243af","toSide":"left","color":"4","label":"buffer image and type on json"},
+		{"id":"e5bb85b017dbf73a","fromNode":"f0f6f63d79e243af","fromSide":"bottom","toNode":"80aa48e91f42da03","toSide":"right","color":"4","label":"object info extract"},
+		{"id":"bf4fe81d81f0eded","fromNode":"80aa48e91f42da03","fromSide":"bottom","toNode":"c07dc9ad459cad87","toSide":"left","color":"3","label":"id tra, img buffer"},
+		{"id":"632904424068718a","fromNode":"7b15fca48ca7ea0a","fromSide":"top","toNode":"b9eae9c43bab3069","toSide":"left","color":"4","label":"id:tra"},
+		{"id":"69dd7b2427acb7e3","fromNode":"b9eae9c43bab3069","fromSide":"bottom","toNode":"7b15fca48ca7ea0a","toSide":"right","color":"4","label":"ticket info if is winner"},
+		{"id":"f4b725ef40b98dfd","fromNode":"7b15fca48ca7ea0a","fromSide":"right","toNode":"8acc13223e858c34","toSide":"left","color":"4","label":"img_buffer"},
+		{"id":"43805969686700d7","fromNode":"7b15fca48ca7ea0a","fromSide":"bottom","toNode":"c07dc9ad459cad87","toSide":"bottom","color":"4","label":"novedad register"}
+	]
+}

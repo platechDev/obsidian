@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"type":"group","id":"afdfe91e91cd7965","x":-1120,"y":-1140,"width":1225,"height":900,"label":"  "},
+		{"type":"group","id":"a0a4311cdf3256ea","x":-1100,"y":-920,"width":1185,"height":660,"label":"deploy"},
+		{"type":"group","id":"dc4b64743f25a869","x":-1760,"y":-1194,"width":420,"height":1008,"label":"CID integration"},
+		{"type":"text","text":"contenedores","id":"ee84d5168371df14","x":-572,"y":-897,"width":180,"height":50},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054417.png","id":"878bd4ccf50486b2","x":-1080,"y":-780,"width":245,"height":117},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054707.png","id":"f3ebd4bf1a9c494d","x":-1058,"y":-540,"width":202,"height":160},
+		{"type":"text","text":"cluster deploy","id":"9d295e343f64469d","x":-1058,"y":-899,"width":170,"height":55},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055913.png","id":"992737936dc182e2","x":-1640,"y":-394,"width":188,"height":188},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055818.png","id":"2630a49cefb27386","x":-1640,"y":-854,"width":181,"height":180},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055847.png","id":"a9f7abf6a9e1cdf1","x":-1632,"y":-1094,"width":166,"height":167},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060329.png","id":"b4d2ee0ca6f542a6","x":-746,"y":-1080,"width":132,"height":132},
+		{"type":"text","text":"monitoreo","id":"7b686652b87e5c3b","x":320,"y":-897,"width":250,"height":60},
+		{"type":"text","text":"cada aplicacion sub dividirla en pequeñas partes y cada sub parte se convierte en un Stack de docker compose ","id":"6e1ed518241150b0","x":-614,"y":-460,"width":250,"height":180},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054556.png","id":"495237c87d8f70fd","x":-150,"y":-540,"width":184,"height":160},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060329.png","id":"4044b0d97782f3ef","x":-548,"y":-1080,"width":132,"height":132},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060329.png","id":"e21287f5b33890be","x":-355,"y":-1080,"width":132,"height":132},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054417.png","id":"880b9ccf297825e2","x":-180,"y":-780,"width":245,"height":117},
+		{"type":"text","text":"cluster testing","id":"71df18adaf6f6167","x":-143,"y":-900,"width":170,"height":55},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054321.png","id":"f6799841ca5970bd","x":-689,"y":-780,"width":400,"height":193},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414061029.png","id":"9970a8da7cb3c92e","x":-586,"y":-40,"width":170,"height":165},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060713.png","id":"e1c14da4679b61d8","x":320,"y":-780,"width":400,"height":167}
+	],
+	"edges":[
+		{"id":"feeae20ffc3d1dd7","fromNode":"495237c87d8f70fd","fromSide":"top","toNode":"880b9ccf297825e2","toSide":"bottom"},
+		{"id":"f60d1e6556ed65f0","fromNode":"f6799841ca5970bd","fromSide":"right","toNode":"495237c87d8f70fd","toSide":"left"},
+		{"id":"6eb8fa01d8923c20","fromNode":"f3ebd4bf1a9c494d","fromSide":"top","toNode":"878bd4ccf50486b2","toSide":"bottom"},
+		{"id":"86ff6bacabbccdf0","fromNode":"f6799841ca5970bd","fromSide":"left","toNode":"f3ebd4bf1a9c494d","toSide":"right"},
+		{"id":"cc97981963748d74","fromNode":"6e1ed518241150b0","fromSide":"top","toNode":"f6799841ca5970bd","toSide":"bottom","label":"stacks"},
+		{"id":"276309bf5ce6c5ba","fromNode":"992737936dc182e2","fromSide":"top","toNode":"2630a49cefb27386","toSide":"left","label":"push"},
+		{"id":"4ca70c4132cd04ba","fromNode":"2630a49cefb27386","fromSide":"right","toNode":"992737936dc182e2","toSide":"top","label":"pull"},
+		{"id":"2ca9da04cd0e73bf","fromNode":"2630a49cefb27386","fromSide":"top","toNode":"a9f7abf6a9e1cdf1","toSide":"bottom","label":"test"},
+		{"id":"dedc7d8fd07f245b","fromNode":"afdfe91e91cd7965","fromSide":"right","toNode":"e1c14da4679b61d8","toSide":"left"},
+		{"id":"5ccdce3ec62629e8","fromNode":"dc4b64743f25a869","fromSide":"right","toNode":"afdfe91e91cd7965","toSide":"left"},
+		{"id":"f4518ad29a6d0aa1","fromNode":"dc4b64743f25a869","fromSide":"bottom","toNode":"9970a8da7cb3c92e","toSide":"left"},
+		{"id":"2339974d166a06b5","fromNode":"afdfe91e91cd7965","fromSide":"bottom","toNode":"9970a8da7cb3c92e","toSide":"top"},
+		{"id":"ae6fa2e49cf4f330","fromNode":"e1c14da4679b61d8","fromSide":"bottom","toNode":"9970a8da7cb3c92e","toSide":"right"}
+	]
+}
