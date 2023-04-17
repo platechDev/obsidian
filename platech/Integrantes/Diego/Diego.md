@@ -579,3 +579,9 @@ aqui se encuentra la primera version de FalconBot
 ]
 
 
+
+
+
+# certificados autofirmados
+
+nos encontramos utilizado certificados autofirmados por lo que el navegador lo reconoce como no seguro ya es agregar los certificados a traefick con los tengamos

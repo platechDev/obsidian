@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"type":"group","id":"6acbddd52dc6f855","x":-377,"y":-270,"width":1160,"height":540,"label":"computadora de susuerte"},
+		{"type":"text","text":"usuario escanea","id":"8b2d3a4c96a9776f","x":-782,"y":-100,"width":250,"height":60},
+		{"type":"text","text":"carpeta donde se descarguen las escaneadas","id":"82a25339dd553a85","x":-357,"y":-100,"width":250,"height":60},
+		{"type":"text","text":"Node red ","id":"df91fe09e2ff3788","x":-22,"y":-100,"width":250,"height":60},
+		{"type":"text","text":"falconProxy/FalconMotor","id":"cdf0904f793d6abe","x":478,"y":-100,"width":270,"height":60},
+		{"type":"text","text":"websocket","id":"e1757386cc111e43","x":-357,"y":150,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8c920cc2c7820efd","fromNode":"8b2d3a4c96a9776f","fromSide":"right","toNode":"82a25339dd553a85","toSide":"left","label":"descarga"},
+		{"id":"83553752dea4bb7b","fromNode":"82a25339dd553a85","fromSide":"top","toNode":"df91fe09e2ff3788","toSide":"top","label":"png image"},
+		{"id":"84c41aa82969dd64","fromNode":"df91fe09e2ff3788","fromSide":"bottom","toNode":"82a25339dd553a85","toSide":"bottom","label":"eliminar image"},
+		{"id":"f0fb9a4e3ca365cd","fromNode":"df91fe09e2ff3788","fromSide":"top","toNode":"cdf0904f793d6abe","toSide":"left","label":"base64 image"},
+		{"id":"a303585b6530006a","fromNode":"df91fe09e2ff3788","fromSide":"bottom","toNode":"e1757386cc111e43","toSide":"right","label":"object"},
+		{"id":"a5c19c4bd74cbdb5","fromNode":"cdf0904f793d6abe","fromSide":"left","toNode":"df91fe09e2ff3788","toSide":"bottom","label":"Object"}
+	]
+}

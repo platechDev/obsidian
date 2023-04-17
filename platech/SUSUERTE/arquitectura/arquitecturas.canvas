@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"e58f132bf3d54861","x":-1400,"y":-340,"width":1410,"height":706,"type":"group","label":"arquitectura"},
+		{"id":"79a32dff7d76c9bc","x":-271,"y":-320,"width":261,"height":276,"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/FalconSusuerte.canvas"},
+		{"id":"35d5c79d8d0f9980","x":-263,"y":-4,"width":245,"height":260,"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/FalconMotor.canvas"},
+		{"id":"a0630f5068ddb04f","x":-1380,"y":-184,"width":250,"height":60,"type":"text","text":"user/ dev"},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/FalconProxy.canvas","id":"21bd5713fc5addc2","x":-850,"y":-264,"width":330,"height":220},
+		{"id":"d9a10f08304b655b","x":-1380,"y":-4,"width":275,"height":350,"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/FalconBot.canvas"}
+	],
+	"edges":[
+		{"id":"21325ca228181c97","fromNode":"a0630f5068ddb04f","fromSide":"right","toNode":"21bd5713fc5addc2","toSide":"left","label":"peticiones"},
+		{"id":"101b05a10a7206ea","fromNode":"21bd5713fc5addc2","fromSide":"right","toNode":"79a32dff7d76c9bc","toSide":"left"},
+		{"id":"dcfe3ac1f027cc13","fromNode":"21bd5713fc5addc2","fromSide":"right","toNode":"35d5c79d8d0f9980","toSide":"left"},
+		{"id":"f9e4de326f288c71","fromNode":"d9a10f08304b655b","fromSide":"right","toNode":"21bd5713fc5addc2","toSide":"left"}
+	]
+}

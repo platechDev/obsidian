@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"group","id":"3274b819f3c79be3","x":-440,"y":-420,"width":980,"height":720,"label":"Pm2"},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033153.png","id":"94420bb5e7ab091c","x":200,"y":-400,"width":160,"height":160},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033600.png","id":"51374c630f170843","x":-440,"y":-496,"width":300,"height":73},
+		{"type":"text","text":"FalconProxy","id":"e63c71c532e36609","x":-720,"y":60,"width":250,"height":60},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033742.png","id":"c8d34782d7b0f9df","x":-140,"y":-120,"width":276,"height":155},
+		{"type":"text","text":"# Express 4000","id":"52e91b4b5a926260","x":-440,"y":340,"width":340,"height":80}
+	],
+	"edges":[
+		{"id":"fb434811410e717c","fromNode":"c8d34782d7b0f9df","fromSide":"top","toNode":"94420bb5e7ab091c","toSide":"left","label":"image buffer"},
+		{"id":"d5bd9ff9a01837ee","fromNode":"94420bb5e7ab091c","fromSide":"bottom","toNode":"c8d34782d7b0f9df","toSide":"right","label":"extrated plain text"},
+		{"id":"5c9bf2bffc621074","fromNode":"e63c71c532e36609","fromSide":"top","toNode":"c8d34782d7b0f9df","toSide":"left","label":"format type, image buffer"},
+		{"id":"e8e85e5479f7c6e9","fromNode":"c8d34782d7b0f9df","fromSide":"bottom","toNode":"e63c71c532e36609","toSide":"bottom","label":"parse object with indicators"}
+	]
+}

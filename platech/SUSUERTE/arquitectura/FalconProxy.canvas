@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"group","id":"b4ce1bc3860073cf","x":480,"y":-840,"width":880,"height":840,"label":"docker compose"},
+		{"type":"text","text":"enrutador","id":"263165ecc44ad864","x":500,"y":-220,"width":250,"height":60},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417031655.png","id":"4789ef4a20fd08cc","x":980,"y":-800,"width":336,"height":140},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417031515.png","id":"eee406536ff965f5","x":500,"y":-560,"width":300,"height":300},
+		{"type":"text","text":"ratreo de errores","id":"7a4a482e98c6ad22","x":980,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"falconMotor","id":"13386b0f112db18c","x":1560,"y":-830,"width":250,"height":60},
+		{"type":"text","text":"falconSusuerte","id":"51ea2145e1b3615a","x":1560,"y":-720,"width":250,"height":60},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417031611.png","id":"84884b7509210c94","x":983,"y":-260,"width":140,"height":140},
+		{"type":"text","text":"monitoreo de los servicios","id":"56dcc0258f6c01c6","x":983,"y":-640,"width":250,"height":80},
+		{"type":"text","text":"# traefick          8080\n\n# jaeger           16686\n\n# prometheus 9090\n\n# grafana          3000","id":"675066d3a5fcbfc7","x":480,"y":60,"width":500,"height":280},
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055913.png","id":"8251797bb6775568","x":-960,"y":-560,"width":220,"height":220},
+		{"type":"text","text":"FalconMotor","id":"966e9a14311618e8","x":0,"y":-860,"width":250,"height":60},
+		{"type":"text","text":"FalconSusuerte Mongo Express","id":"bf362ab6a8b7de99","x":0,"y":-760,"width":250,"height":80},
+		{"type":"text","text":"FalconSusuerte Grafana","id":"d9ae23e32d49b525","x":0,"y":-620,"width":250,"height":60},
+		{"id":"900f91f203e7ce0b","x":0,"y":-510,"width":250,"height":90,"type":"text","text":"FalconSusuerte MongoDB"}
+	],
+	"edges":[
+		{"id":"7fcac6a0ca8b7a4f","fromNode":"eee406536ff965f5","fromSide":"right","toNode":"4789ef4a20fd08cc","toSide":"left","label":"/metrics"},
+		{"id":"d23ecad923cc6f3c","fromNode":"eee406536ff965f5","fromSide":"right","toNode":"84884b7509210c94","toSide":"left","label":"logger"},
+		{"id":"a812627339360c22","fromNode":"8251797bb6775568","fromSide":"right","toNode":"966e9a14311618e8","toSide":"left","label":"http://FalconProxyIp/FalconMotor"},
+		{"id":"0a5745567d51efbb","fromNode":"b4ce1bc3860073cf","fromSide":"right","toNode":"13386b0f112db18c","toSide":"left"},
+		{"id":"b40a3cd2270eb881","fromNode":"966e9a14311618e8","fromSide":"right","toNode":"b4ce1bc3860073cf","toSide":"left"},
+		{"id":"17962e94ab30cd90","fromNode":"8251797bb6775568","fromSide":"right","toNode":"bf362ab6a8b7de99","toSide":"left","label":"http://FalconProxyIp/ConsultFalconSusuerte"},
+		{"id":"a6f410671c85d07a","fromNode":"bf362ab6a8b7de99","fromSide":"right","toNode":"b4ce1bc3860073cf","toSide":"left"},
+		{"id":"7709c6634a2dc8ec","fromNode":"b4ce1bc3860073cf","fromSide":"right","toNode":"51ea2145e1b3615a","toSide":"left"},
+		{"id":"7d08bc01c775a4cb","fromNode":"8251797bb6775568","fromSide":"right","toNode":"d9ae23e32d49b525","toSide":"left","label":"http://FalconProxyIp/MetricsFalconSusuerte"},
+		{"id":"98c17f4b8b81c053","fromNode":"d9ae23e32d49b525","fromSide":"right","toNode":"b4ce1bc3860073cf","toSide":"left"},
+		{"id":"465cc3053d5c453a","fromNode":"8251797bb6775568","fromSide":"right","toNode":"900f91f203e7ce0b","toSide":"left","label":"http://FalconProxyIp/BackendFalconSusuerte"},
+		{"id":"7a44954bd5e90185","fromNode":"900f91f203e7ce0b","fromSide":"right","toNode":"b4ce1bc3860073cf","toSide":"left"}
+	]
+}
