@@ -5,11 +5,11 @@
 		{"type":"text","text":"impresora","id":"80aa48e91f42da03","x":-700,"y":-220,"width":140,"height":60},
 		{"type":"text","text":"servidor Backend","id":"c07dc9ad459cad87","x":-240,"y":-60,"width":250,"height":60},
 		{"type":"text","text":"usuario  que elegio esa impresora frontend","id":"7b15fca48ca7ea0a","x":260,"y":-70,"width":250,"height":70},
-		{"id":"b9eae9c43bab3069","x":600,"y":-220,"width":250,"height":60,"type":"text","text":"webservice"},
-		{"id":"8acc13223e858c34","x":760,"y":40,"width":250,"height":60,"type":"text","text":"image webserive"},
-		{"id":"57c345f3f1f52c12","x":-670,"y":80,"width":250,"height":60,"color":"4","type":"text","text":"http api"},
-		{"id":"04ac47ba5b19200e","x":-670,"y":180,"width":250,"height":60,"color":"3","type":"text","text":"WEBSOCKET"},
-		{"id":"4339532ecb22aac1","x":-670,"y":280,"width":250,"height":60,"color":"5","type":"text","text":"VISION API REQUEST"}
+		{"type":"text","text":"webservice","id":"b9eae9c43bab3069","x":600,"y":-220,"width":250,"height":60},
+		{"type":"text","text":"image webserive","id":"8acc13223e858c34","x":760,"y":40,"width":250,"height":60},
+		{"type":"text","text":"http api","id":"57c345f3f1f52c12","x":-670,"y":280,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"WEBSOCKET","id":"04ac47ba5b19200e","x":-670,"y":380,"width":250,"height":60,"color":"3"},
+		{"type":"text","text":"VISION API REQUEST","id":"4339532ecb22aac1","x":-670,"y":480,"width":250,"height":60,"color":"5"}
 	],
 	"edges":[
 		{"id":"6475663d044d009c","fromNode":"c07dc9ad459cad87","fromSide":"right","toNode":"7b15fca48ca7ea0a","toSide":"left","color":"3","label":"id_tra, img_buffer"},

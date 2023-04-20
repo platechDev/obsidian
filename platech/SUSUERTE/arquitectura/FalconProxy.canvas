@@ -14,7 +14,7 @@
 		{"type":"text","text":"FalconMotor","id":"966e9a14311618e8","x":0,"y":-860,"width":250,"height":60},
 		{"type":"text","text":"FalconSusuerte Mongo Express","id":"bf362ab6a8b7de99","x":0,"y":-760,"width":250,"height":80},
 		{"type":"text","text":"FalconSusuerte Grafana","id":"d9ae23e32d49b525","x":0,"y":-620,"width":250,"height":60},
-		{"id":"900f91f203e7ce0b","x":0,"y":-510,"width":250,"height":90,"type":"text","text":"FalconSusuerte MongoDB"}
+		{"type":"text","text":"FalconSusuerte MongoDB","id":"900f91f203e7ce0b","x":0,"y":-510,"width":250,"height":90}
 	],
 	"edges":[
 		{"id":"7fcac6a0ca8b7a4f","fromNode":"eee406536ff965f5","fromSide":"right","toNode":"4789ef4a20fd08cc","toSide":"left","label":"/metrics"},

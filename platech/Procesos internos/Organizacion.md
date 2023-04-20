@@ -10,12 +10,7 @@
 		2.6.3 Pago
 		2.6.4 Contable [urgente]
 			
-1. Creemos el prospecto Front, Back, Deploy [[rafael]] [[Diego]]
-
-
-- [ ] Reunion con el contandor [[esteban]]
-	   -  que impuestos se pagan como empresa de tecnologia
-	   -  en el estado que nos encontramos cuales deben ser las consideraciones
+1. Creemos el prospecto Front, Back [[rafael]] 
 
 - [ ] Reunion con parte legal 
 	-  como ,nos encontramos la parte organizacional
@@ -23,7 +18,6 @@
 	-  Como debemos cubrirnos legalmente
 	-  junto con la razon ver que identificador le queda a platech con el numero de rut
 
-- [ ] pantilla de costo para los proyectos y anexarla a procedimentos [[esteban]]
-- [ ] implemetacion de slack interno
-- [ ] revizar los estatus con rafa
+- [ ] estado de capacitacion de estatus de rafa
 
+- [ ]  crear el flujo de trabajo para innovacion  [[rafael]]

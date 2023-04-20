@@ -2,15 +2,15 @@
 	"nodes":[
 		{"type":"group","id":"47cf5b06bfbfaa14","x":-260,"y":-20,"width":1276,"height":532,"label":"monitoring"},
 		{"type":"group","id":"a10e18fa42760957","x":-260,"y":-300,"width":579,"height":199,"label":"DB"},
-		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042517.png","id":"710cfed2c611b567","x":826,"y":305,"width":161,"height":161},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042205.png","id":"372ae8696c66067a","x":826,"y":0,"width":170,"height":170},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042443.png","id":"0eb03b743d0f9e62","x":446,"y":278,"width":201,"height":214},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042611.png","id":"37f2252c152355de","x":46,"y":180,"width":231,"height":173},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042114.png","id":"fb315bf5d642b310","x":446,"y":24,"width":278,"height":122},
-		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042741.png","id":"2245289003bcdf17","x":-240,"y":179,"width":176,"height":176},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417041655.png","id":"6d95ac9632dc78c0","x":-240,"y":-270,"width":140,"height":140},
 		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417041732.png","id":"7e05692ac21feac2","x":100,"y":-280,"width":199,"height":159},
-		{"type":"text","text":"# mongo express 8081\n\n# mongo DB 27017\n\n# Grafana 3000","id":"2161ac8c3b6d5ae6","x":-240,"y":580,"width":440,"height":220}
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042517.png","id":"710cfed2c611b567","x":826,"y":305,"width":161,"height":161},
+		{"type":"text","text":"# mongo express 8081\n\n# mongo DB 27017\n\n# Grafana 3000","id":"2161ac8c3b6d5ae6","x":-240,"y":580,"width":440,"height":220},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417042741.png","id":"2245289003bcdf17","x":-240,"y":177,"width":176,"height":176}
 	],
 	"edges":[
 		{"id":"f073f3c0ffefb0b3","fromNode":"6d95ac9632dc78c0","fromSide":"right","toNode":"7e05692ac21feac2","toSide":"left","label":"consult"},
