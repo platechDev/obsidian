@@ -12,12 +12,13 @@
 			
 1. Creemos el prospecto Front, Back [[rafael]] 
 
-- [ ] Reunion con parte legal 
+- [ ] Reunion con parte legal [[esteban]]
 	-  como ,nos encontramos la parte organizacional
 	-  registro de marca
 	-  Como debemos cubrirnos legalmente
 	-  junto con la razon ver que identificador le queda a platech con el numero de rut
 
-- [ ] estado de capacitacion de estatus de rafa
+- [ ] asesoria de procesos empresarial [[esteban]] [[diego]] [[rafael]]
 
-- [ ]  crear el flujo de trabajo para innovacion  [[rafael]]
+- [ ] realizar la lectura de flujo de innovacion [[diego]]
+- [ ] realizar la lectura de empredimiento [[esteban]]

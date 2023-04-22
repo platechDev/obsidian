@@ -585,3 +585,63 @@ aqui se encuentra la primera version de FalconBot
 # certificados autofirmados
 
 nos encontramos utilizado certificados autofirmados por lo que el navegador lo reconoce como no seguro ya es agregar los certificados a traefick con los tengamos
+
+
+# normativa de llamado de enfermeria
+
+principales puntos de la norma técnica colombiana NTC 60601-2-25:2016, que establece los requisitos y características para el diseño, fabricación, instalación y mantenimiento de sistemas de llamado de enfermeras en instituciones prestadoras de servicios de salud:
+
+1.  Objetivo: la norma técnica tiene como objetivo establecer los requisitos particulares para la seguridad básica y el funcionamiento esencial de los equipos de sistemas de llamado de enfermeras.
+2.  Alcance: la norma técnica aplica a los equipos de sistemas de llamado de enfermeras y se refiere a aquellos sistemas diseñados para permitir que los pacientes o residentes soliciten asistencia a los cuidadores en una institución de atención médica. El alcance también incluye los requisitos para el diseño, fabricación, instalación y mantenimiento de estos sistemas.
+    
+3.  Requisitos de seguridad: la norma técnica establece requisitos específicos de seguridad para los sistemas de llamado de enfermeras, con el objetivo de garantizar la seguridad del paciente y del personal médico. Algunos de estos requisitos son:
+    
+
+-   Protección contra descargas eléctricas: se deben utilizar medidas de protección para prevenir descargas eléctricas, como el uso de transformadores de aislamiento, conexiones eléctricas adecuadas y la verificación periódica de la continuidad eléctrica.
+    
+-   Aislamiento de partes energizadas: se deben aislar adecuadamente las partes energizadas del equipo para prevenir contactos eléctricos directos e indirectos.
+    
+-   Protección contra riesgos mecánicos: el equipo debe ser diseñado y fabricado de tal manera que prevenga cualquier riesgo mecánico, como la posibilidad de aplastamiento, atrapamiento o pellizco.
+    
+
+4.  Requisitos de funcionamiento: la norma técnica establece requisitos específicos de funcionamiento para los sistemas de llamado de enfermeras, con el objetivo de garantizar la efectividad del sistema y su facilidad de uso para los pacientes. Algunos de estos requisitos son:
+
+-   Señales audibles y visuales: el sistema debe contar con señales audibles y visuales que indiquen la recepción de la llamada, así como la presencia y ubicación del personal médico.
+    
+-   Facilidad de uso para el paciente: el sistema debe ser fácil de usar por el paciente, por lo que los botones de llamada deben ser grandes y fáciles de localizar, y el sistema debe contar con señalizaciones claras y visibles.
+    
+-   Registro de llamadas: el sistema debe contar con un registro de las llamadas realizadas para poder evaluar la efectividad del sistema y determinar las áreas que necesitan mejoras.
+    
+
+5.  Diseño y fabricación: la norma técnica establece requisitos específicos para el diseño y fabricación de los sistemas de llamado de enfermeras, con el objetivo de garantizar su resistencia, durabilidad y facilidad de limpieza. Algunos de estos requisitos son:
+
+-   Selección de materiales adecuados: los materiales utilizados en la fabricación del equipo deben ser resistentes a la corrosión y no tóxicos.
+    
+-   Resistencia a la corrosión: el equipo debe ser resistente a la corrosión para garantizar su durabilidad y evitar la contaminación del ambiente.
+    
+-   Facilidad de limpieza: el diseño del equipo debe permitir una fácil limpieza y desinfección para garantizar la higiene en el entorno hospitalario.
+    
+6.  Instalación y mantenimiento: La norma técnica establece requisitos específicos para la instalación y mantenimiento de los sistemas de llamado de enfermeras, que deben cumplirse para garantizar su correcto funcionamiento y la seguridad del paciente y del personal médico.
+
+-   Instalación: La instalación del sistema de llamado de enfermeras debe ser realizada por personal capacitado y calificado. Además, se deben realizar pruebas de seguridad y funcionamiento antes de poner el equipo en uso. La ubicación de los botones de llamada y la señalización deben ser claramente visibles y accesibles para el paciente.
+    
+-   Mantenimiento: El equipo de llamado de enfermeras debe ser sometido a mantenimiento preventivo regularmente para garantizar su correcto funcionamiento y prolongar su vida útil. El personal encargado del mantenimiento debe estar capacitado y calificado para realizar estas actividades. Se deben llevar registros de mantenimiento y reparación del equipo.
+    
+
+Además, la norma técnica establece que se deben realizar pruebas de seguridad y funcionamiento periódicas en los sistemas de llamado de enfermeras. Estas pruebas deben ser realizadas por personal capacitado y calificado y deben incluir pruebas de aislamiento, continuidad eléctrica, pruebas de funcionalidad y otras pruebas necesarias para garantizar el correcto funcionamiento del equipo.
+    
+
+En resumen, la norma técnica NTC 60601-2-25:2016 establece los requisitos necesarios para garantizar la seguridad y el funcionamiento esencial de los sistemas de llamado de enfermeras en instituciones de atención médica. Los principales puntos a tener en cuenta son los requisitos de seguridad y funcionamiento, el diseño y fabricación adecuados, y la instalación y mantenimiento apropiados del equipo.
+
+
+# costos de aws
+
+- falconBot no tiene costo porque se encuentra hosteado en la pc
+- falconProxy 
+- falconSusuerte
+- falconMotor
+
+el costo general es de 0.33 dolares diarios nos daria un 10.33 dolares mensuales bajo peticiones basicas hay que hacer peticiones generales y ver cuanto sube.
+
+el costo por 10 mil peticiones al google api es de 13.50 dolares
+
