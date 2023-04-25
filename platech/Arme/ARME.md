@@ -7,7 +7,7 @@ tag: platech
 
 ---
 
-- [ ] canvas del solucion  [[rafael]]  
+- [ ] realizar la lectira del canvas de arme [[Diego]] [[esteban]]
 
 
 

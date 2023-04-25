@@ -20,5 +20,4 @@
 
 - [ ] asesoria de procesos empresarial [[esteban]] [[diego]] [[rafael]]
 
-- [ ] realizar la lectura de flujo de innovacion [[diego]]
 - [ ] realizar la lectura de empredimiento [[esteban]]
