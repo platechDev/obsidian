@@ -10,6 +10,7 @@
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055818.png","id":"2630a49cefb27386","x":-1640,"y":-854,"width":181,"height":180},
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414055847.png","id":"a9f7abf6a9e1cdf1","x":-1632,"y":-1094,"width":166,"height":167},
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060329.png","id":"b4d2ee0ca6f542a6","x":-746,"y":-1080,"width":132,"height":132},
+		{"type":"text","text":"cluster testing","id":"71df18adaf6f6167","x":-143,"y":-900,"width":170,"height":55},
 		{"type":"text","text":"contenedores","id":"ee84d5168371df14","x":-572,"y":-897,"width":180,"height":50},
 		{"type":"text","text":"monitoreo","id":"7b686652b87e5c3b","x":320,"y":-897,"width":250,"height":60},
 		{"type":"text","text":"cada aplicacion sub dividirla en pequeñas partes y cada sub parte se convierte en un Stack de docker compose ","id":"6e1ed518241150b0","x":-614,"y":-460,"width":250,"height":180},
@@ -18,9 +19,8 @@
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060329.png","id":"e21287f5b33890be","x":-355,"y":-1080,"width":132,"height":132},
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054417.png","id":"880b9ccf297825e2","x":-180,"y":-780,"width":245,"height":117},
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414054321.png","id":"f6799841ca5970bd","x":-689,"y":-780,"width":400,"height":193},
-		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414061029.png","id":"9970a8da7cb3c92e","x":-586,"y":-40,"width":170,"height":165},
 		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414060713.png","id":"e1c14da4679b61d8","x":320,"y":-780,"width":400,"height":167},
-		{"type":"text","text":"cluster testing","id":"71df18adaf6f6167","x":-143,"y":-900,"width":170,"height":55}
+		{"type":"file","file":"obsidian/platech/Integrantes/Diego/imagenes/Pasted image 20230414061029.png","id":"9970a8da7cb3c92e","x":-586,"y":-40,"width":170,"height":165}
 	],
 	"edges":[
 		{"id":"feeae20ffc3d1dd7","fromNode":"495237c87d8f70fd","fromSide":"top","toNode":"880b9ccf297825e2","toSide":"bottom"},

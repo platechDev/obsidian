@@ -7,7 +7,7 @@ tag: platech
 
 ---
 
-- [ ] realizar la lectira del canvas de arme [[Diego]] [[esteban]]
-
+- [ ] darle inicio de formulacion de arme [[esteban]]
+- [ ] documento de requerimiento de arme [[rafael]]
 
 

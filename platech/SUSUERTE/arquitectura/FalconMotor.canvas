@@ -1,16 +1,24 @@
 {
 	"nodes":[
-		{"type":"group","id":"3274b819f3c79be3","x":-440,"y":-420,"width":980,"height":720,"label":"Pm2"},
-		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033153.png","id":"94420bb5e7ab091c","x":200,"y":-400,"width":160,"height":160},
-		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033600.png","id":"51374c630f170843","x":-440,"y":-496,"width":300,"height":73},
-		{"type":"text","text":"FalconProxy","id":"e63c71c532e36609","x":-720,"y":60,"width":250,"height":60},
-		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033742.png","id":"c8d34782d7b0f9df","x":-140,"y":-120,"width":276,"height":155},
-		{"type":"text","text":"# Express 4000","id":"52e91b4b5a926260","x":-440,"y":340,"width":340,"height":80}
+		{"type":"group","id":"3274b819f3c79be3","x":120,"y":-480,"width":980,"height":680,"label":"Pm2"},
+		{"type":"group","id":"8f0974a7a97b0742","x":120,"y":268,"width":422,"height":252,"label":"docker compose"},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033153.png","id":"94420bb5e7ab091c","x":760,"y":-460,"width":160,"height":160},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033600.png","id":"51374c630f170843","x":120,"y":-556,"width":300,"height":73},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230417033742.png","id":"c8d34782d7b0f9df","x":420,"y":-180,"width":276,"height":155},
+		{"type":"text","text":"FalconProxy","id":"e63c71c532e36609","x":-180,"y":0,"width":250,"height":60},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230426215912.png","id":"0eccb9bc61403b68","x":-220,"y":420,"width":205,"height":151},
+		{"type":"text","text":"https://github.com/platechDev/FalconMotor.git","id":"3c4295f83338fa3c","x":-273,"y":621,"width":312,"height":93},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230426215806.png","id":"a2b18a557a0bbcd8","x":-720,"y":449,"width":125,"height":125},
+		{"type":"text","text":"# Express 4000\n# Jenkins 8080","id":"52e91b4b5a926260","x":120,"y":574,"width":300,"height":140},
+		{"type":"file","file":"obsidian/platech/SUSUERTE/arquitectura/imagenes/Pasted image 20230426220138.png","id":"b1b08d77a2784f75","x":212,"y":288,"width":208,"height":208}
 	],
 	"edges":[
 		{"id":"fb434811410e717c","fromNode":"c8d34782d7b0f9df","fromSide":"top","toNode":"94420bb5e7ab091c","toSide":"left","label":"image buffer"},
 		{"id":"d5bd9ff9a01837ee","fromNode":"94420bb5e7ab091c","fromSide":"bottom","toNode":"c8d34782d7b0f9df","toSide":"right","label":"extrated plain text"},
 		{"id":"5c9bf2bffc621074","fromNode":"e63c71c532e36609","fromSide":"top","toNode":"c8d34782d7b0f9df","toSide":"left","label":"format type, image buffer"},
-		{"id":"e8e85e5479f7c6e9","fromNode":"c8d34782d7b0f9df","fromSide":"bottom","toNode":"e63c71c532e36609","toSide":"bottom","label":"parse object with indicators"}
+		{"id":"e8e85e5479f7c6e9","fromNode":"c8d34782d7b0f9df","fromSide":"bottom","toNode":"e63c71c532e36609","toSide":"bottom","label":"parse object with indicators"},
+		{"id":"c8db6f53a1f48a36","fromNode":"a2b18a557a0bbcd8","fromSide":"right","toNode":"0eccb9bc61403b68","toSide":"left","label":"git push origin deploy"},
+		{"id":"b31025ce3d1cfd43","fromNode":"0eccb9bc61403b68","fromSide":"right","toNode":"b1b08d77a2784f75","toSide":"left","label":"job"},
+		{"id":"c44e4e701e10922c","fromNode":"b1b08d77a2784f75","fromSide":"right","toNode":"c8d34782d7b0f9df","toSide":"bottom","label":"update"}
 	]
 }

@@ -12,12 +12,9 @@
 			
 1. Creemos el prospecto Front, Back [[rafael]] 
 
-- [ ] Reunion con parte legal [[esteban]]
-	-  como ,nos encontramos la parte organizacional
-	-  registro de marca
-	-  Como debemos cubrirnos legalmente
-	-  junto con la razon ver que identificador le queda a platech con el numero de rut
 
-- [ ] asesoria de procesos empresarial [[esteban]] [[diego]] [[rafael]]
-
-- [ ] realizar la lectura de empredimiento [[esteban]]
+- [ ] agendar reunion de con don santiago [[esteban]]
+- [ ] cotizar otros abogados [[esteban]]
+- [ ] agendar reunion de la unidad de empredimiento UAM [[esteban]]
+- [ ] hablar con gabo propuesta platech [[esteban]]
+- [ ] reglas develop [[rafael]]

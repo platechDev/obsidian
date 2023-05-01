@@ -25,562 +25,15 @@ https://www.youtube.com/watch?v=JC1nJoyemi4&ab_channel=iSebasmicroProgramando
 
 En la ventana de node-red  importar el siguiente flow
 
-
-
-
 aqui se encuentra la primera version de FalconBot
 
-[
-    {
-        "id": "fd2bd8cfadf0983b",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "5123f088baf692fb",
-        "type": "group",
-        "z": "fd2bd8cfadf0983b",
-        "name": "check Files",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0bcf4aef851f31fd",
-            "75196e73b6d5ed1f",
-            "4f4b05e822994741",
-            "eea5ce7a204b68c6",
-            "2acaf73b46f365bc",
-            "05b4400c0eeffddb",
-            "17107faffba21b44",
-            "dc21109e5856f4d9",
-            "a42a22b3c5aa6973"
-        ],
-        "x": 54,
-        "y": 299,
-        "w": 1042,
-        "h": 202
-    },
-    {
-        "id": "31a7d5666892a8ee",
-        "type": "group",
-        "z": "fd2bd8cfadf0983b",
-        "name": "Convert Image and delete it",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "3acad38d7d3996a0",
-            "90be7448a48f16a6",
-            "0b670102e979e69b",
-            "54d40125a9db2508",
-            "b1227e5cc35798b1",
-            "e69d54fee738b141",
-            "751ccab64661ea67"
-        ],
-        "x": 44,
-        "y": 539,
-        "w": 882,
-        "h": 122
-    },
-    {
-        "id": "1c4828488a71b550",
-        "type": "group",
-        "z": "fd2bd8cfadf0983b",
-        "name": "call falcon Motor",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "cf3d0e3b6003c633",
-            "b6fa0cced77a6ce2",
-            "beba21c407631436",
-            "ea67774e63d2fea5"
-        ],
-        "x": 54,
-        "y": 719,
-        "w": 672,
-        "h": 82
-    },
-    {
-        "id": "3acad38d7d3996a0",
-        "type": "file in",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 180,
-        "y": 580,
-        "wires": [
-            [
-                "90be7448a48f16a6"
-            ]
-        ]
-    },
-    {
-        "id": "90be7448a48f16a6",
-        "type": "function",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "buffer to image 64",
-        "func": "msg.payload = Buffer.from(msg.payload).toString('base64')\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 580,
-        "wires": [
-            [
-                "b1227e5cc35798b1",
-                "751ccab64661ea67"
-            ]
-        ]
-    },
-    {
-        "id": "7ff04ef968375045",
-        "type": "image viewer",
-        "z": "fd2bd8cfadf0983b",
-        "name": "",
-        "width": 160,
-        "data": "payload",
-        "dataType": "msg",
-        "active": true,
-        "x": 610,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cf3d0e3b6003c633",
-        "type": "axios-request",
-        "z": "fd2bd8cfadf0983b",
-        "g": "1c4828488a71b550",
-        "name": "FalconMotor",
-        "endpoint": "1986b9880fd16d4f",
-        "method": "post",
-        "url": "",
-        "responseType": "json",
-        "keepAlive": false,
-        "timeout": 30000,
-        "validateStatus": true,
-        "headers": [
-            {
-                "keyType": "str",
-                "keyValue": "Content-Type",
-                "valueType": "str",
-                "valueValue": "application/json"
-            }
-        ],
-        "params": [
-            {
-                "keyType": "str",
-                "keyValue": "",
-                "valueType": "str",
-                "valueValue": ""
-            }
-        ],
-        "x": 430,
-        "y": 760,
-        "wires": [
-            [
-                "ea67774e63d2fea5"
-            ]
-        ]
-    },
-    {
-        "id": "b6fa0cced77a6ce2",
-        "type": "link in",
-        "z": "fd2bd8cfadf0983b",
-        "g": "1c4828488a71b550",
-        "name": "link in 1",
-        "links": [
-            "751ccab64661ea67"
-        ],
-        "x": 95,
-        "y": 760,
-        "wires": [
-            [
-                "beba21c407631436"
-            ]
-        ]
-    },
-    {
-        "id": "beba21c407631436",
-        "type": "function",
-        "z": "fd2bd8cfadf0983b",
-        "g": "1c4828488a71b550",
-        "name": "create Json",
-        "func": "const obj = {}\n\nobj[\"ticketType\"] = \"type1\"\nobj[\"image\"] = msg.payload\n\nmsg.payload = obj\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 210,
-        "y": 760,
-        "wires": [
-            [
-                "cf3d0e3b6003c633"
-            ]
-        ]
-    },
-    {
-        "id": "0bcf4aef851f31fd",
-        "type": "inject",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "path inyect",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "path",
-                "v": "D:\\platech\\suserte vision ai\\final test",
-                "vt": "str"
-            }
-        ],
-        "repeat": "0.5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 420,
-        "wires": [
-            [
-                "75196e73b6d5ed1f",
-                "05b4400c0eeffddb"
-            ]
-        ]
-    },
-    {
-        "id": "75196e73b6d5ed1f",
-        "type": "fs-ops-dir",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "listFile",
-        "path": "path",
-        "pathType": "msg",
-        "filter": "*",
-        "filterType": "str",
-        "dir": "files",
-        "dirType": "msg",
-        "x": 330,
-        "y": 420,
-        "wires": [
-            [
-                "4f4b05e822994741"
-            ]
-        ]
-    },
-    {
-        "id": "4f4b05e822994741",
-        "type": "change",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "file",
-                "pt": "flow",
-                "to": "files",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 470,
-        "y": 420,
-        "wires": [
-            [
-                "eea5ce7a204b68c6"
-            ]
-        ]
-    },
-    {
-        "id": "eea5ce7a204b68c6",
-        "type": "array-loop",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "files",
-        "key": "aleea5ce7a204b68c6",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "file",
-        "arrayType": "flow",
-        "x": 630,
-        "y": 420,
-        "wires": [
-            [],
-            [
-                "2acaf73b46f365bc"
-            ]
-        ]
-    },
-    {
-        "id": "2acaf73b46f365bc",
-        "type": "delay",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "0.25",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 770,
-        "y": 420,
-        "wires": [
-            [
-                "17107faffba21b44"
-            ]
-        ]
-    },
-    {
-        "id": "05b4400c0eeffddb",
-        "type": "change",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "path",
-                "pt": "flow",
-                "to": "path",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 330,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "17107faffba21b44",
-        "type": "function",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "inyect Path",
-        "func": "msg.filename = `${flow.get('path')}\\\\${msg.payload}`\nflow.set(\"filename\", msg.filename)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 930,
-        "y": 420,
-        "wires": [
-            [
-                "dc21109e5856f4d9"
-            ]
-        ]
-    },
-    {
-        "id": "dc21109e5856f4d9",
-        "type": "link out",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "link out 2",
-        "mode": "link",
-        "links": [
-            "0b670102e979e69b"
-        ],
-        "x": 1055,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "0b670102e979e69b",
-        "type": "link in",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "link in 2",
-        "links": [
-            "dc21109e5856f4d9"
-        ],
-        "x": 85,
-        "y": 580,
-        "wires": [
-            [
-                "3acad38d7d3996a0"
-            ]
-        ]
-    },
-    {
-        "id": "54d40125a9db2508",
-        "type": "fs-ops-delete",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "",
-        "path": "",
-        "pathType": "str",
-        "filename": "filename",
-        "filenameType": "msg",
-        "x": 770,
-        "y": 580,
-        "wires": [
-            [
-                "e69d54fee738b141"
-            ]
-        ]
-    },
-    {
-        "id": "b1227e5cc35798b1",
-        "type": "change",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "filename",
-                "pt": "msg",
-                "to": "filename",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 580,
-        "wires": [
-            [
-                "54d40125a9db2508"
-            ]
-        ]
-    },
-    {
-        "id": "e69d54fee738b141",
-        "type": "link out",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "link out 3",
-        "mode": "link",
-        "links": [
-            "a42a22b3c5aa6973"
-        ],
-        "x": 885,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "a42a22b3c5aa6973",
-        "type": "link in",
-        "z": "fd2bd8cfadf0983b",
-        "g": "5123f088baf692fb",
-        "name": "link in 3",
-        "links": [
-            "e69d54fee738b141"
-        ],
-        "x": 545,
-        "y": 460,
-        "wires": [
-            [
-                "eea5ce7a204b68c6"
-            ]
-        ]
-    },
-    {
-        "id": "751ccab64661ea67",
-        "type": "link out",
-        "z": "fd2bd8cfadf0983b",
-        "g": "31a7d5666892a8ee",
-        "name": "link out 4",
-        "mode": "link",
-        "links": [
-            "b48a794572c2d741",
-            "b6fa0cced77a6ce2"
-        ],
-        "x": 525,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "b48a794572c2d741",
-        "type": "link in",
-        "z": "fd2bd8cfadf0983b",
-        "name": "link in 4",
-        "links": [
-            "751ccab64661ea67"
-        ],
-        "x": 505,
-        "y": 40,
-        "wires": [
-            [
-                "7ff04ef968375045"
-            ]
-        ]
-    },
-    {
-        "id": "ea67774e63d2fea5",
-        "type": "debug",
-        "z": "fd2bd8cfadf0983b",
-        "g": "1c4828488a71b550",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 620,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "1986b9880fd16d4f",
-        "type": "axios-endpoint",
-        "name": "",
-        "baseURL": "http://54.208.91.82:4000",
-        "caCertPath": "",
-        "rejectUnauthorized": true,
-        "proxyEnabled": false,
-        "proxyProtocol": "https",
-        "proxyHost": "",
-        "proxyPort": ""
-    }
-]
+git clone https://github.com/platechDev/FalconBot.git
 
+he importar falconBot.json en node red
 
+realizar la instalacion de los diferentes paquetes que se encuentran en falconBot
 
-
+cambiar la localizacion de la carpeta por donde se decargan los archivos
 
 # certificados autofirmados
 
@@ -645,3 +98,53 @@ el costo general es de 0.33 dolares diarios nos daria un 10.33 dolares mensuales
 
 el costo por 10 mil peticiones al google api es de 13.50 dolares
 
+
+
+# documentacion de cronograma 
+
+pruebas de prototipo
+
+1.  realiazar prueba de falcon Bot con el escaner disponible en susuerte
+2. realizar las pruebas con los tipos de ticket 1
+3. realizar las prueba con los tipos de ticket 2
+4. realizar las pruebas con los tipos de ticket 3
+5. realizar las pruebas con los tipos de ticket 4
+6. realizar las pruebas con los tipos de ticket 5
+7. realizar el registro de casos bueno y malos y con ello calcular la confiabilidad del sistema.
+
+ajustes del prototipo
+
+1. dependiendo de la medida de confiabilidad se adapta la manera de mejorar dicho proceso por medio de el aumento de contraste de las fotos y aplicacion filtros para eliminar algun tipo de ruido que se filtre en a imagen
+
+documentacion del prototipo 
+
+1. realizar la documentacion de las pruebas 
+2. realizar la documentacion de los ajustes
+3. realizar la documentacion de como instalar a falconBot en el puesto de trabajo de las personas
+
+pruebas unitarias 
+
+1. realizar la busqueda de las pantillas de las pruebas unitarias que mas se adecuen a nuestros requerimientos
+2. dockerizar tanto el frontend como el backend
+3. realizar el despliegue de la aplicacion y realizar las pruebas unitarias sobre el docker y revizar las metricas por medio de grafana
+4. bombardear al servidor con peticiones y ver el desempeño de las mismas y medir por medio de grafana
+
+pruebas de integracion
+
+0. este proceso es ciclico en cada uno de los componentes integracion CID, Frontend, Backend, Dev ops por lo que las tareas se repiten.
+1. Buscar y definir la media minima de estres que puede soportar nuestro servicios y medirlo por medio de las medidas obtenidas en grafana como en aws
+
+
+los costos de aws son muy altos por lo que se buscara la manera de implementar un servidor
+
+
+# dinamica de las ramas
+
+ramas las cuales se van a trabajar en los proyectos son las siguientes
+
+1. main : la rama que se encuentra por defecto esta rama se realiza merge con respecto a deploy cuando la rama deploy halla tenido un comportamiento sin errores previstos en el spring.
+2. deploy: la rama la cual se encuentra en el servidor esta rama es la que  por lo que hacer push a esta implica que los cambios estan totalmente testeados, los merge se realizan desde la rama dev.
+3. dev: la rama desarrollo a esta rama es donde se merge de todos los feat y fix luego de la revicion por medio de un PR, para se merge a deploy se tiene que pasar por las pruebas de test.
+4. test: la rama donde se encuentran las pruebas unitarias lo que conlleva a que realizan, el testeo de los diferentes cambio
+5. feat/Requerimiento: esta rama es ha resolver el requerimiento una vez completado se merge a test y se realizan las pruebas unitarias si las pruebas salen OK, se realiza un PR a dev.
+6. Fix/Error: esta rama es para resolver algun error que se haya evidencia en test, una vez se resuelve el error se merge con el feat de origen y se prueba de nuevo en test.
